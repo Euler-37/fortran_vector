@@ -73,4 +73,8 @@ cut Extra memory
   call a%cut()
 ```
 
-
+## clear
+deallocate
+``` fortran
+  call a%clear()
+```
