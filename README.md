@@ -45,10 +45,10 @@ remove all `val`
   !! a=[1,2,4]
 ```
 ## delete
-delete i-th `val`
+delete i-th val
 ``` fortran
   !! a=[1,3,2,4,9]
-  call a%remove(2)
+  call a%delete(2)
   !! a=[1,2,4,9]
 ```
 ## unique
