@@ -1,0 +1,9 @@
+name = "fortran_vector"
+version = "0.1.0"
+license = "license"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
