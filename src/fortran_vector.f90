@@ -74,7 +74,7 @@ contains
       integer,optional,intent(in)::arr
       integer::capacity
       integer,allocatable::tmp(:)
-      capacity=this%capacity_+this%capacity_/3+1+optval(arr,1)
+      capacity=this%capacity_+this%capacity_+1+optval(arr,1)
       allocate(tmp(capacity))
       tmp(1:this%capacity_)=this%x_
       deallocate(this%x_)
